@@ -1,9 +1,9 @@
 
 #读文件
-f = open(file="兼职白领学生空姐模特护士联系方式.txt",mode="r",encoding='gbk')
-data = f.read()
-print(data)
-f.close()
+# f = open(file="兼职白领学生空姐模特护士联系方式.txt",mode="r",encoding='gbk')
+# data = f.read()
+# print(data)
+# f.close()
 
 ##如果不知道编码，可以直接转成二进制模式，
 # f = open(file="兼职白领学生空姐模特护士联系方式.txt",mode="rb")
@@ -22,8 +22,24 @@ f.close()
 # print(data.decode(encoding='gbk'))
 
 ## 逐行打印：注意直接打印时，每行后面会多一个空行
-f = open(file="兼职白领学生空姐模特护士联系方式.txt",mode="r",encoding='gbk')
-for line in f:
-    print(line.strip())
-f.close()
+# f = open(file="兼职白领学生空姐模特护士联系方式.txt",mode="r",encoding='gbk')
+# for line in f:
+#     print(line.strip())
+# f.close()
 
+lis_info_sta = ['3','4','age','phone','dept','enroll_date']
+str ='1,Alex Li,22,13651054608,IT,2013-04-01'
+
+dic_info = dict(zip(lis_info_sta,str.split(',')))
+for key in lis_info_sta:
+    if lis_info_sta.index(key) == len(lis_info_sta)-1:
+        print(dic_info[key])
+    else:
+        print(dic_info[key],end=',')
+
+
+st = lis_info_sta[0]+'>'+lis_info_sta[1]
+print(st)
+flag = eval(st)
+
+print(flag)

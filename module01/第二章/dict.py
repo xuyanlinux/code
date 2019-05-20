@@ -1,6 +1,6 @@
 #Author:Timmy
 dic = {'k1':'v1','k2':'v2','k3':'v3'}
-
+print(dic)
 #1 循环遍历所有的key
 # for k in dic:
 #     print(k)
@@ -28,7 +28,7 @@ dic = {'k1':'v1','k2':'v2','k3':'v3'}
 # print(dic['k2'])
 
 #8 获取字典中k6对应的值，如果不存在，则不报错，并且让其返回None
-print(dic.get('k6',None))
+# print(dic.get('k6',None))
 
 #9 现有dic2 = {'k1':'v111','a':'b'},通过一行操作是dic2 = {'k1':'v1','k2':'v2','k3':'v3','a':'b'}
 # dic2 = {'k1':'v111','a':'b'}

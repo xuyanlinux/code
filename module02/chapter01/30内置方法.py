@@ -22,3 +22,7 @@ lis2 = list(range(5))
 # res2 = filter(lambda x:x > 5,lis)
 # print(list(res2))
 
+f = open(file='print_2_file.txt',mode='w',encoding='utf-8')
+print('HELLLO WORLD','你好，世界',sep='!',end='\n',file=f)
+f.close()
+callable()
