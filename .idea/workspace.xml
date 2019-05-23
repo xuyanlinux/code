@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="913dd14b-c654-4c4c-942d-22c7e3bd1155" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/module02/chapter2模块/02模块的种类和导入方式.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module02/chapter01/staff_table" beforeDir="false" afterPath="$PROJECT_DIR$/module02/chapter01/staff_table" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module02/chapter01/作业_员工信息怎删改查程序.py" beforeDir="false" afterPath="$PROJECT_DIR$/module02/chapter01/作业_员工信息怎删改查程序.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module02/chapter01/staff_table">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module02/chapter2模块/02模块的种类和导入方式.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -31,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module02/chapter01/作业_员工信息怎删改查程序.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="2300">
               <caret line="92" selection-start-line="92" selection-end-line="92" />
             </state>
           </provider>
@@ -49,8 +57,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module02/chapter01/02文件处理.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
+            <state relative-caret-position="-66">
               <caret line="72" selection-start-line="72" selection-end-line="75" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python/Python36/Lib/site-packages/sayhi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -102,12 +119,13 @@
         <option value="$PROJECT_DIR$/module02/chapter01/02文件处理.py" />
         <option value="$PROJECT_DIR$/module02/chapter01/staff_table" />
         <option value="$PROJECT_DIR$/module02/chapter01/作业_员工信息怎删改查程序.py" />
+        <option value="C:/Python/Python36/Lib/site-packages/sayhi.py" />
+        <option value="$PROJECT_DIR$/module02/chapter2模块/02模块的种类和导入方式.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-78" />
-    <option name="y" value="74" />
+    <option name="x" value="2" />
     <option name="width" value="1346" />
     <option name="height" value="690" />
   </component>
@@ -127,30 +145,13 @@
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="module01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="module01" type="462c0819:PsiDirectoryNode" />
-              <item name="第一章" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="module01" type="462c0819:PsiDirectoryNode" />
-              <item name="第二章" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="module02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="module02" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2模块" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -178,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.作业_员工信息怎删改查程序">
+  <component name="RunManager" selected="Python.02模块的种类和导入方式">
     <configuration name="02文件处理" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,7 +202,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="49生成器send方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="02模块的种类和导入方式" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,12 +210,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/module02/chapter01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/module02/chapter2模块" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module02/chapter01/49生成器send方法.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module02/chapter2模块/02模块的种类和导入方式.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,11 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02模块的种类和导入方式" />
         <item itemvalue="Python.作业_员工信息怎删改查程序" />
         <item itemvalue="Python.02文件处理" />
         <item itemvalue="Python.dict" />
         <item itemvalue="Python.50迭代器" />
-        <item itemvalue="Python.49生成器send方法" />
       </list>
     </recent_temporary>
   </component>
@@ -321,16 +322,19 @@
       <workItem from="1558316139615" duration="14928000" />
       <workItem from="1558400294623" duration="27016000" />
       <workItem from="1558445578160" duration="12314000" />
+      <workItem from="1558575191759" duration="3788000" />
+      <workItem from="1558587889053" duration="1505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98896000" />
+    <option name="totallyTimeSpent" value="104189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21827795" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22432025" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -344,8 +348,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.34348562" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.47715735" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32994923" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.47715735" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -382,7 +386,7 @@
     <SUITE FILE_PATH="coverage/code$28.coverage" NAME="28递归的作用练习题 Coverage Results" MODIFIED="1558082861992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module02/chapter01" />
     <SUITE FILE_PATH="coverage/code$40.coverage" NAME="40装饰器 Coverage Results" MODIFIED="1558160246083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module02/chapter01" />
     <SUITE FILE_PATH="coverage/code$30.coverage" NAME="30内置方法 Coverage Results" MODIFIED="1558147513200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module02/chapter01" />
-    <SUITE FILE_PATH="coverage/code$02.coverage" NAME="02文件处理 Coverage Results" MODIFIED="1558423528841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module02/chapter01" />
+    <SUITE FILE_PATH="coverage/code$02.coverage" NAME="02模块的种类和导入方式 Coverage Results" MODIFIED="1558599364851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module02/chapter2模块" />
     <SUITE FILE_PATH="coverage/code$write_file.coverage" NAME="write_file Coverage Results" MODIFIED="1557907668573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module02/chapter01" />
     <SUITE FILE_PATH="coverage/code$50.coverage" NAME="50迭代器 Coverage Results" MODIFIED="1558199131568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module02/chapter01" />
     <SUITE FILE_PATH="coverage/code$44.coverage" NAME="44列表生成器 Coverage Results" MODIFIED="1558181477888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/module02/chapter01" />
@@ -545,6 +549,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module02/chapter01/staff_table_new" />
     <entry file="file://$PROJECT_DIR$/module02/chapter01/staff_table_del" />
+    <entry file="file://$PROJECT_DIR$/module02/chapter01/staff_table">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module02/chapter01/print_2_file.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module02/chapter01/作业_员工信息怎删改查程序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2300">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43775">
@@ -554,25 +575,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module02/chapter01/02文件处理.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
+        <state relative-caret-position="-66">
           <caret line="72" selection-start-line="72" selection-end-line="75" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module02/chapter01/print_2_file.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module02/chapter01/作业_员工信息怎删改查程序.py">
+    <entry file="file://C:/Python/Python36/Lib/site-packages/sayhi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="125">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module02/chapter01/staff_table">
+    <entry file="file://$PROJECT_DIR$/module02/chapter2模块/02模块的种类和导入方式.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="109">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
