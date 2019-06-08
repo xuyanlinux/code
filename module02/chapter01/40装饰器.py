@@ -2,9 +2,8 @@
 # __author__ = "Q1mi"
 # Email: liufengjimo@live.com
 # Date: 2019/5/18
-
 flag_login = False
-uname = 'tim'
+uname = 'aaa'
 passwd = '123'
 
 def login(func):

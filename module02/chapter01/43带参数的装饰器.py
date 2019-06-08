@@ -39,3 +39,6 @@ def america():
 def japan(str1):
     print("----日韩专区----",str1)
 japan('123')
+america()
+japan(' ')
+print("bye")
