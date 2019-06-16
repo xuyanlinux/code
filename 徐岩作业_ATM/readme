@@ -12,11 +12,45 @@ Python(3.6.8)
    资金变化类操作记录到consume.log
 4、账号登陆采用装饰器实现，无需每个模块重复登陆，并保证每次登陆后，程序始终在同一账号下操作。
 
+程序目录结构
+    徐岩作业_ATM
+    ├── ATM
+    │   ├── account_m
+    │   │   ├── __init__.py
+    │   │   ├── m_account.py   # 账号操作函数，创建、冻结、解冻账号
+    │   │   ├── readinfo.py    # json序列化读取并返回账号信息，供各函数调用
+    │   │   └── writeinfo.py   # json序列化写入账号信息，供各函数调用
+    │   ├── cash_m
+    │   │   ├── __init__.py
+    │   │   ├── m_cash.py      # 资金变化类操作函数，消费、提现、转账、还款等操作
+    │   ├── infodb                # 信息库，每个文件存放同名账号的信息（帐户名、账户密码、余额、冻结标识）
+    │   │   ├── admin
+    │   │   ├── huhu
+    │   │   ├── __init__.py
+    │   │   ├── liufeng
+    │   │   └── xuyan
+    │   ├── __init__.py
+    │   ├── login
+    │   │   ├── __init__.py
+    │   │   ├── login.py       # 登录函数，是一个装饰器
+    │   ├── logs
+    │   │   ├── consume.log    # 资金变化类操作日志
+    │   │   ├── __init__.py
+    │   │   ├── login.log      # 账号操作类日志
+    │   │   ├── log.py         # 写日志模块，供各个函数调用
+    │   │   └── readme         # 标注两个日志文件存放的日志分类
+    │   ├── main
+    │   │   └── main.py        # 程序入口
+    │   └── shopping
+    │       ├── __init__.py
+    │       ├── __pycache__
+    │       └── shopping.py       # 购物程序
+    └── readme
+
+
 启动项目：
 解压程序包，python运行main目录下的main.py文件即可
 
 账号信息：
 管理账号：admin
 
-项目功能：
-实现员工信息条目的增删改查
