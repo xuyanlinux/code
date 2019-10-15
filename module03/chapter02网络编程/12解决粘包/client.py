@@ -17,7 +17,6 @@ while True:
 
     head_struct = phone.recv(4)
     head_json_len = struct.unpack('i',head_struct)[0]
-    print(head_json_len)
     head_json_bytes = phone.recv(head_json_len)
     head_json = head_json_bytes.decode('utf-8')
     head = json.loads(head_json)
@@ -31,8 +30,8 @@ while True:
     recv_data = b''
     while recv_size < data_len:
         recv_data += phone.recv(1024)
-        # recv_size += len(recv_data)
-        recv_size = len(recv_data)
+        recv_size += len(recv_data)
+        # recv_size = len(recv_data)
     print(recv_size)
     print(recv_data.decode('gbk'))
 phone.close()
