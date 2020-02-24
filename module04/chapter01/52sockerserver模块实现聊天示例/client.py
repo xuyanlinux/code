@@ -19,3 +19,25 @@ while True:
     except ConnectionResetError:
         print("快去看看，server端掉线了...")
         break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
